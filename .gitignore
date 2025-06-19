@@ -1,0 +1,23 @@
+# Docker
+.env.local
+docker-compose.override.yml
+
+# Logs
+*.log
+
+# Temporary files
+.DS_Store
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+
+# Backup files
+*.backup
+*.bak
+
+# Generated configs (optional - uncomment if you don't want to track generated configs)
+# promtail-configs/promtail-config-*.yml
+# promtail-configs/deploy-*.sh

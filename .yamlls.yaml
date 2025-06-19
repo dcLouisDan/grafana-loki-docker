@@ -1,0 +1,11 @@
+yaml:
+  validate: true
+  hover: true
+  completion: true
+  schemas:
+    # Disable validation for Grafana provisioning files
+    "file:///dev/null":
+      - "grafana/provisioning/**/*.yml"
+      - "grafana/provisioning/**/*.yaml"
+  customTags:
+    - "!reference sequence"
